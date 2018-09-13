@@ -29,5 +29,11 @@ dependencies {
     
     testCompile 'junit:junit:4.12'
     testCompile 'org.seleniumhq.selenium:selenium-java:2.41.0'
+   // testCompile group: 'org.testng', name: 'testng', version: '6.9.10'
 }
 
+//test {
+//    useTestNG {
+//        suites 'src/test/resources/testNG.xml'
+//    }
+//}
